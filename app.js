@@ -75,6 +75,6 @@ routes
 app.use('/', routes);
 
 // run express server
-app.listen(3001, () => {
+app.listen(3000, () => {
     console.log(console.log(`Listening on port 3000 ....`));
 });

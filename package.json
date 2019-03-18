@@ -1,14 +1,14 @@
 {
   "name": "node_ldap_auth",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": " ldap authentication with Node js, passport and passport-ldapauth",
+  "main": "app.js",
   "scripts": {
     "start": "nodemon app"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Mohamed Azouaoui",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
     "bootstrap": "^4.3.1",
@@ -16,7 +16,6 @@
     "express": "^4.16.4",
     "express-session": "^1.15.6",
     "passport": "^0.4.0",
-    "passport-activedirectory": "^1.0.4",
     "passport-ldapauth": "^2.1.2",
     "pug": "^2.0.3"
   },
