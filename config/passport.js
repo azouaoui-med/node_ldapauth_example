@@ -2,7 +2,7 @@ const passport = require('passport');
 const LdapStrategy = require('passport-ldapauth');
 
 function passortConfig() {
-    
+
     // Stores user in session
     passport.serializeUser((user, done) => {
         done(null, user);
@@ -15,10 +15,10 @@ function passortConfig() {
 
     const OPTS = {
         server: {
-            url: 'ldap://10.6.3.1:389',
-            bindDN: 'sigLdap sigLdap',
-            bindCredentials: 'Sonelgaz.1',
-            searchBase: 'OU=SONELGAZ,DC=grp-sonelgaz,DC=sng',
+            url: 'ldap://localhost:389',
+            bindDN: 'cn=root',
+            bindCredentials: 'secret',
+            searchBase: 'ou=passport-ldapauth',
             searchFilter: '(sAMAccountName={{username}})'
         }
     };
