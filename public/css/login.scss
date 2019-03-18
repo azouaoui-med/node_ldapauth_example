@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #33363f;
+    .login-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 500px;
+        input {
+            color: #828890;
+            background-color: #292a31;
+            border: 1px solid #525663;
+            box-shadow: none;
+            &:focus {
+                color: #dadada;
+                background-color: #292a31;
+            }
+        }
+        input,
+        button {
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            border-radius: 0;
+        }
+    }
+    hr {
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+}

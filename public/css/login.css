@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #26272d;
+    overflow: hidden;
+
+}
+body .login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    background: #33363f;
+}
+body .login-container input {
+    color: #828890;
+    background-color: #292a31;
+    border-color: #32353e;
+    font-size: 1rem;
+}
+body .login-container input:focus {
+    color: #dadada;
+    background-color: #292a31;
+}
+body .login-container input,
+body .login-container button {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+body hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#particles-js{
+    height: 100%;
+}
+
+/*# sourceMappingURL=login.css.map */
